@@ -1,6 +1,6 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #ffffff;
+  color: #000000;
   text-size: 16px;
 }
 
@@ -50,4 +50,45 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+element.style {
+    text-decoration: none;
+}
+
+element.style{
+    text-decoration: none;
+}
+
+element.style{
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: aqua;
+}
+
+a:hover {
+    background-color: aqua;
+}
+
+a:hover {
+    background-color: aqua;
+}
+
+.logo {
+    background-image: url(images/bloc-logo.png)
+}
+
+img {
+    background-image: url(instagram-pic.jpg);
+}
+
+element style {
+    line-height: 1.75;
+}
+
+element style {
+  font-weight: 600;  
+  line-height: 1.75;
 }
