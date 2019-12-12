@@ -10,7 +10,7 @@ nav {
   position: fixed;
   width: 100%;
 }
-
+  
 .logo {
   margin: 20px;
   width: 100px;
@@ -33,6 +33,9 @@ nav {
 
 .right {
   float: right;
+  text-decoration: none;
+  a:hover
+    background-color: aqua;
 }
 
 ul {
@@ -58,27 +61,18 @@ p {
     text-decoration: none;
 }
 
-element.style{
-    text-decoration: none;
-}
 
-element.style{
-    text-decoration: none;
-}
+article, container {
+  font-size: 1.5em;
+  }
 
-a:hover {
-    background-color: aqua;
-}
-
-a:hover {
-    background-color: aqua;
-}
-
-a:hover {
-    background-color: aqua;
-}
-
-element style {
-  font-weight: 600;  
+article, container, h1 {
+  font-size: 1.5em;
+  font-weight: 600;
+  }
+  
+ 
+article, story-text {
   line-height: 1.75;
-}
+  }
+
