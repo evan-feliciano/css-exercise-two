@@ -14,15 +14,16 @@ nav {
 .logo {
   margin: 20px;
   width: 100px;
-  background-image: url(images/bloc-logo.png)
 }
 
 .large-pic {
   width: 100%;
+  background-image: url(images/bloc-logo.png)
 }
 
 .medium-pic {
   width: 70%;
+   background-image: url(instagram-pic.jpg);
 }
 
 .left, .right {
@@ -76,10 +77,6 @@ a:hover {
 a:hover {
     background-color: aqua;
 }
-
-img {
-    background-image: url(instagram-pic.jpg);
-
 
 element style {
   font-weight: 600;  
