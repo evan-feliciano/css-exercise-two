@@ -5,7 +5,7 @@ body {
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: lightgray;
   float: left;
   position: fixed;
   width: 100%;
@@ -58,11 +58,27 @@ article {
 }
 
 header {
-  font-weight: 600;
+  line-height: 2;
 }
 
 figure {
-  font-size: 1.3em
+  font-size: 1em
+}
+
+h1 {
+  font-size: 1.75em;
+  font-weight: 800;
+  line-height: 4
+}
+
+h3{
+  font-weight: 600;
+  font-size: 1.2em
+}
+
+.author {
+  font-weight: 800;
+  font-size: 1.75em
 }
 
 .container {
