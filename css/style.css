@@ -15,7 +15,6 @@ nav {
 .logo {
   margin: 20px;
   width: 100px;
-  background-image: url(images/bloc-logo.png);
 }
 
 .large-pic {
@@ -23,7 +22,6 @@ nav {
 }
 
 .medium-pic {
-  background-image: url(images/instagram-pic.jpg);
   width: 70%;
 }
 
