@@ -9,6 +9,7 @@ nav {
   float: left;
   position: fixed;
   width: 100%;
+  font-size; 1.5em;
 }
   
 .logo {
@@ -35,7 +36,7 @@ nav {
   float: right;
 }
 
-.left { 
+.left, logo { 
   background-image: url(images/bloc-logo.png)
 }
     
