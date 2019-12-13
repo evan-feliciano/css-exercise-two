@@ -18,7 +18,6 @@ nav {
 
 .large-pic {
   width: 100%;
-  background-image: url(images/bloc-logo.png)
 }
 
 .medium-pic {
@@ -29,20 +28,26 @@ nav {
 .left, .right {
   float: left;
   width: 50%;
+  text-dec
 }
 
 .right {
   float: right;
-  text-decoration: none;
 }
 
-.right, a:hover {
-    background-color: aqua;
+.left { 
+  background-image: url(images/bloc-logo.png)
 }
-
+    
 ul {
   list-style-type: none;
   float: right;
+  text-decoraction: none;
+  font-size: 1.2em;
+}
+
+ul, .a:hover {
+    background-color: aqua;
 }
 
 li {
