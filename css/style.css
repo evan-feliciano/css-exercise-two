@@ -1,7 +1,7 @@
 body {
   background-color: #ffffff;
   color: #000000;
-  text-size: 16px;
+  font-size: 20px
 }
 
 nav {
@@ -9,9 +9,9 @@ nav {
   float: left;
   position: fixed;
   width: 100%;
-  font-size; 1.5em;
+  font-size: 2em;
 }
-  
+
 .logo {
   margin: 20px;
   width: 100px;
@@ -23,30 +23,20 @@ nav {
 
 .medium-pic {
   width: 70%;
-   background-image: url(instagram-pic.jpg);
 }
 
 .left, .right {
   float: left;
   width: 50%;
-  text-dec
 }
 
 .right {
   float: right;
 }
 
-.left, logo { 
-  background-image: url(images/bloc-logo.png)
-}
-    
 ul {
   list-style-type: none;
   float: right;
-}
-
-ul, .a:hover {
-    background-color: green;
 }
 
 li {
@@ -55,30 +45,27 @@ li {
 }
 
 a {
-   text-decoration: none;
-   font-size: 1.2em;
+ text-decoration: none;
+}
+
+a:hover {
+  color: aqua
 }
 
 article {
-  padding-top: 100px;
+  padding-top: 140px;
+  line-height: 1.75;
+}
+
+header {
+  font-weight: 600;
+}
+
+figure {
+  font-size: 1.3em
 }
 
 .container {
   margin: 0 auto;
   width: 50%;
 }
-
-article, container {
-  font-size: 1.5em;
-}
-
-article, container, h1 {
-  font-size: 1.5em;
-  font-weight: 600;
-}
-  
- 
-article, story-text {
-  line-height: 1.75;
-}
-
