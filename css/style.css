@@ -34,7 +34,9 @@ nav {
 .right {
   float: right;
   text-decoration: none;
-  a:hover
+}
+
+.right, a:hover {
     background-color: aqua;
 }
 
@@ -57,22 +59,17 @@ article {
   width: 50%;
 }
 
-p {
-    text-decoration: none;
-}
-
-
 article, container {
   font-size: 1.5em;
-  }
+}
 
 article, container, h1 {
   font-size: 1.5em;
   font-weight: 600;
-  }
+}
   
  
 article, story-text {
   line-height: 1.75;
-  }
+}
 
