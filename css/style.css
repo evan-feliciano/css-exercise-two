@@ -9,12 +9,13 @@ nav {
   float: left;
   position: fixed;
   width: 100%;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .logo {
   margin: 20px;
   width: 100px;
+  background-image: url(images/bloc-logo.png);
 }
 
 .large-pic {
@@ -22,6 +23,7 @@ nav {
 }
 
 .medium-pic {
+  background-image: url(images/instagram-pic.jpg);
   width: 70%;
 }
 
@@ -58,7 +60,7 @@ article {
 }
 
 header {
-  line-height: 2;
+  line-height: 1.5;
 }
 
 figure {
@@ -68,20 +70,25 @@ figure {
 h1 {
   font-size: 2.5em;
   font-weight: 800;
-  line-height: 4
+  line-height: 2;
 }
 
 h3{
   font-weight: 600;
-  font-size: 1.2em
+  font-size: 1.2em;
 }
 
 .author {
   font-weight: 800;
-  font-size: 1.75em
+  font-size: 1.75em;
 }
 
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+story-text, p {
+  margin-top: : 20px;
+  margin-bottom: 20px;
 }
